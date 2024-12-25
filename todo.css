@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#block{
+    width:100%;
+    height:30vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(180, 174, 174);
+}
+#block>h1{
+    font-size:44px;
+    font-weight:900;
+    color:green;
+    margin-bottom: 30px;
+}
+
+.create-task{
+    position:relative;
+}
+.create-task>#input_val{
+    width:400px;
+    height:40px;
+    padding:0px 20px;
+    font-size:20px;
+    border:none;
+    border-radius: 25px;
+    background-color: rgb(222, 226, 193);
+}
+.create-task>input[type="submit"]{
+    padding:11px;
+    border-radius:25px;
+    position:absolute;
+    right:1px;
+    border:none;
+    background-color: green;
+    top:1.5px;
+    color:white;
+    font-weight:bold;
+    transition:all 0.3s
+}
+#mainblock{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mainblock>h1{
+    font-size:38px;
+    color:green;
+    margin:20px 0px;
+
+}
+#task{
+    width:500px;
+    
+}
+#task>.ftask{
+    width:100%;
+    height:45px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+
+}
+.task>.content{
+    flex-basis:70%;
+    height:inherit;
+    display:flex;
+    align-items: center;
+}
+.content>input{
+    padding:15px;
+    width:100%;
+    height:32px;
+    font-size:22px;
+    border:none;
+
+}
+.task>.action{
+    flex-basis:30%;
+    height:inherit;
+    display:flex;
+    align-items: center;
+}
+.action>.edit,.delete{
+    padding:8px 20px;
+    margin:0px 2px;
+    border:none;
+    background-color: green;
+    color:white;
+    font-weight:600;
+    transition:all 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
